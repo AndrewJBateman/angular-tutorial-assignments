@@ -1,0 +1,11 @@
+<div>
+  <h2>Game on!</h2>
+  <button class="btn btn-lg btn-success active" (click)="onStartGame()">START</button>
+  <button class="btn btn-lg btn-danger active" (click)="onStopGame()">STOP</button>
+  <div class="panel-group">
+    <div *ngFor="let number of NumberToArray(count)">
+      <app-even *ngIf="number % 2 === 0" [num]="number"></app-even>
+      <app-odd *ngIf="number % 2 === 1" [num]="number"></app-odd>
+    </div>
+  </div>
+</div>
