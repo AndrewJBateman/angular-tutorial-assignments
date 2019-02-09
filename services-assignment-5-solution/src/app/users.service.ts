@@ -26,5 +26,4 @@ export class UsersService {
     this.inactiveUsers.splice(id, 1);
     this.counterService.userCountInactiveToActive();
   }
-
 }
