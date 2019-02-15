@@ -7,12 +7,59 @@
               Set "Advanced" as Default
            3) A Password field (should not be empty)
            4) A Submit Button
-
            Display a warning message if the Form is invalid AND was touched. Display a warning message below each input if it's invalid.
-
            Upon submitting the form, you should simply print the Value of the Form to the Console.
            Optionally, display it in your template.
       -->
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div id="user-data">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <br>
+            <span class="text-danger" *ngIf="!email.valid && email.touched">Please insert a valid email (email@company.com)</span>
+            <input
+              type="text"
+              id="email"
+              class="form-control"
+              ngModel
+              name="email"
+              required
+              email
+              #email="ngModel">
+          </div>
+          <div class="form-group">
+            <label for="subscription">Subscription type</label>
+            <select
+              id="subscription"
+              class="form-control"
+              [ngModel]="subscriptionDefault"
+              name="subscription">
+              <option value="basic">Basic</option>
+              <option value="advanced">Advanced</option>
+              <option value="pro">Pro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <br>
+            <span class="text-danger" *ngIf="!password.valid && password.touched">Please insert a valid password (min 6 char)</span>
+            <input
+              type="text"
+              id="password"
+              class="form-control"
+              ngModel
+              name="password"
+              required
+              minlength="6"
+              #password="ngModel">
+          </div>
+        </div>
+        <span class="text-danger" *ngIf="!f.valid && f.touched">Please complete all fields correctly</span><br>
+        <button 
+          class="btn btn-primary" 
+          type="submit"
+          [disabled]="!f.valid">Submit</button>
+      </form>
     </div>
   </div>
 </div>
