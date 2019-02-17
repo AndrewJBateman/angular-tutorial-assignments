@@ -11,55 +11,56 @@
            Upon submitting the form, you should simply print the Value of the Form to the Console.
            Optionally, display it in your template.
       -->
-      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
-        <div id="user-data">
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <br>
-            <span class="text-danger" *ngIf="!email.valid && email.touched">Please insert a valid email (email@company.com)</span>
-            <input
-              type="text"
-              id="email"
-              class="form-control"
-              ngModel
-              name="email"
-              required
-              email
-              #email="ngModel">
-          </div>
-          <div class="form-group">
-            <label for="subscription">Subscription type</label>
-            <select
-              id="subscription"
-              class="form-control"
-              [ngModel]="subscriptionDefault"
-              name="subscription">
-              <option value="basic">Basic</option>
-              <option value="advanced">Advanced</option>
-              <option value="pro">Pro</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <br>
-            <span class="text-danger" *ngIf="!password.valid && password.touched">Please insert a valid password (min 6 char)</span>
-            <input
-              type="text"
-              id="password"
-              class="form-control"
-              ngModel
-              name="password"
-              required
-              minlength="6"
-              #password="ngModel">
-          </div>
+      <h1>Subscription Form</h1>
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            required
+            email
+            ngModel
+            #email="ngModel">
+          <br>
+          <span class="help-block" *ngIf="!email.valid && email.touched">Please enter a valid email</span>
+          <label>Please choose a subscription type</label>
+          <select 
+            for="subscriptions" 
+            id="subscriptions" 
+            [ngModel]="defaultOption" 
+            name="subscriptionsType">
+            <option
+              *ngFor="let type of subscriptionTypes"
+              name="type"
+              [value]="type">{{ type }}</option>
+          </select>
+          <br>
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            required
+            ngModel
+            #password="ngModel">
+          <br>
+          <span class="help-block" *ngIf="!password.valid && password.touched">Please enter a password</span>
         </div>
-        <span class="text-danger" *ngIf="!f.valid && f.touched">Please complete all fields correctly</span><br>
-        <button 
-          class="btn btn-primary" 
+        <button
+          class="btn btn-default"
           type="submit"
-          [disabled]="!f.valid">Submit</button>
+          [disabled]="!f.valid">Submit
+        </button>
       </form>
+      <hr>
+      <div class="row" *ngIf="submitted">
+        <div class="col-xs-12">
+          <h3>Your Information</h3>
+          <p>Email: {{ user.email }}</p>
+          <p>Subscription type: {{ user.subscriptionType }}</p>
+          <p>Password: {{ user.password }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
