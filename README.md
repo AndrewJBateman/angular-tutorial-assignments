@@ -19,25 +19,25 @@ A collection of completed assignments and sections from [Maximilian Schwarzmüll
 
 The [Udemy Angular 7 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
 
-**Section 1 Getting Started:** Explanation of Single Page Apps, Angular versions, Command Line Interface, general set-up of software, use of angular.json file to configure the CLI project - only change was to add bootstrap to the styles - see below:
+**Section 1 Getting Started:** Explanation of Single Page Apps, Angular versions, Command Line Interface, general set-up of software, use of angular.json file to configure the CLI project - only change was to add bootstrap to the styles - see Code Examples section below.
 
 **Section 2 The Basics:** Loading of Angular app, Components explained, Angular changes the DOM at run-time, AppComponent as root component, add decorators (e.g. @Component) to enhance a class (or other element) into a component. Components configured with a javascript object that adds metadata, including the selector, links to external html and css files.
 
-Link component in the AppModule (an empty typescript class). Add NgModule and tell it about all the other components. Register new components in the declarations array and import the file path.
+Link components in the AppModule (an empty typescript class). Add NgModule and tell it about all the other components. Register new components in the declarations array and import the file path.
 
 Using the CLI, adding components styles, the component selector: elements can also be selected by attribute (e.g. selector: '[app-server]') or class (e.g. '.app-server), like css.
 
-Data-binding = Communication. Output data to html UI: String interpolation, Property binding. React to user events: event binding ((event)="expression"). Combination of the two = 2-way data-binding. [(ngModel)] = "data". Property binding e.g. [disabled]="!allowServer.
+Data-binding = Communication. Output data to html UI: String interpolation, Property binding. React to user events: event binding ((event)="expression"). Combination of the two = 2-way data-binding e.g. [(ngModel)] = "serName" - requires FormsModule. Property binding e.g. [disabled]="!allowServer".
 
-Event Binding: react to events.
+Event Binding: react to events. String Interpolation, Property Binding, Event Binding. ($event) is a reserved variable name.
 
-String Interpolation, Property Binding, Event Binding,
+Directives: instructions in the DOM. Using *ngIf, using ng-template with else, ngStyle = attribute directive  - see Code Examples section below, ngClass = dynamically add/remove classes. ngFor to output lists and using index - see Code Examples section below.
 
-**Section 3 Course Project - The Basics:** Explanation of .
+**Section 3 Course Project - The Basics:** Project based on the above knowledge.
 
-**Section 4 Debugging:** Explanation of .
+**Section 4 Debugging:** Understanding error messages, using dev console, sourcemaps, Augury.
 
-**Section 5 Components & Databinding Deep Dive:** Explanation of .
+**Section 5 Components & Databinding Deep Dive:** Splitting app into components, custom property bindibng.
 
 **Section 6 Course Project - Components & Databinding:** Explanation of .
 
@@ -69,6 +69,30 @@ String Interpolation, Property Binding, Event Binding,
 
 **Section 20 Authentatication & Route Protection:** Explanation of .
 
+**Section 21 Using Angular Modules and Optimising Apps:** Explanation of .
+
+**Section 22 Deploying an Angular App:** Explanation of .
+
+**Section 23 The HttpClient:** Explanation of .
+
+**Section 24 Working with NgRx:** Explanation of .
+
+**Section 25 Angular Universal:** Explanation of .
+
+**Section 26 Angular Animations:** Explanation of .
+
+**Section 27 Adding Offline Capability with Service Workers:** Explanation of .
+
+**Section 28 Unit Testing:** Explanation of .
+
+**Section 29 Angular Changes and New Features:** Explanation of .
+
+**Section 30 Course Roundup:** Summary of course.
+
+**Section 31 Custom Project & Workflow Setup:** Explanation of .
+
+**Section 32 Typescript:** Explanation of .
+
 ## Screenshots
 
 ![Example screenshot](./img/.png)
@@ -91,13 +115,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Code Examples
 
-* Angular.json file modified to include bootstrap styles:
+* **Section 1:** Angular.json file modified to include bootstrap styles:
 
 ```css
-            "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
-            ],
+  "styles": [
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "src/styles.css"
+  ],
+
+```
+
+* **Section 2:** Include styles, using the ngStyle directive:
+
+```html
+  <p [ngStyle]="{backgroundColor: getColor()}">{{ 'server' }} with ID {{ serverId }} is {{ getServerStatus }}</p>
+
+```
+
+* Section 2: List items, using the ngFor directive:
+
+```html
+  <div ngFor="let logItem of log; let i = index"
+  {{ logItem }}></div>
 
 ```
 
