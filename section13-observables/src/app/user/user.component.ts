@@ -11,6 +11,7 @@ export class UserComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) { }
 
+  // angular unsubscribes
   ngOnInit() {
     this.route.params
       .subscribe(

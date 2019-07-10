@@ -20,7 +20,7 @@ import {
 	selector: 'app-server-element',
 	templateUrl: './server-element.component.html',
 	styleUrls: ['./server-element.component.css'],
-	encapsulation: ViewEncapsulation.Emulated // None, Native
+	encapsulation: ViewEncapsulation.Emulated // other options are None, Native
 })
 export class ServerElementComponent implements
 	OnInit,

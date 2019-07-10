@@ -1,6 +1,6 @@
 # Angular Tutorial Assignments
 
-A collection of completed assignments and sections from [Maximilian Schwarzmüller's Angular 7 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) on Udemy.
+A collection of completed assignments and sections from [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) on Udemy.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -17,7 +17,7 @@ A collection of completed assignments and sections from [Maximilian Schwarzmüll
 
 ## General info
 
-The [Udemy Angular 7 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
+The [Udemy Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
 
 **Section 1 Getting Started:** Explanation of Single Page Apps, Angular versions, Command Line Interface, general set-up of software, use of angular.json file to configure the CLI project - only change was to add bootstrap to the styles - see Code Examples section below.
 
@@ -37,7 +37,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 4 Debugging:** Understanding error messages, using dev console, sourcemaps, Augury.
 
-**Section 5 Components & Databinding Deep Dive:** Splitting app into components, custom property bindibng.
+**Section 5 Components & Databinding Deep Dive:** Splitting app into components, custom property binding. Using aliases for @input and @output is seen as an error by tslint - aliases 'bpcreated' and 'srvElement' etc. should not be used. Using 'services' is a much better way for components to talk to each other if they are far apart. View encapsulation - can be defined under @Component in the .ts file.
 
 **Section 6 Course Project - Components & Databinding:** Explanation of .
 
@@ -45,7 +45,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 8 Course Project - Directives:** Explanation of .
 
-**Section 9 Using Services & Dependency Injection:** Explanation of .
+**Section 9 Using Services & Dependency Injection:** Explanation of . Assignment 9 Practising Services:
 
 **Section 10 Course Project - Services & Dependency Injection:** Explanation of .
 
@@ -53,7 +53,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 12 Course Project - Routing:** Explanation of .
 
-**Section 13 Understanding Observables:** RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code.
+**Section 13 Understanding Observables NEW:** RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code. Run npm install for new code.
 
 **Section 14 Course Project - Observables:** Explanation of .
 
@@ -63,7 +63,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 17 Using Pipes to Transform Output:** Explanation of .
 
-**Section 18 Making Http Requests:** Explanation of .
+**Section 18 Making Http Requests:** Explanation of Http & backend interaction,
 
 **Section 19 Course Project - Http:** Explanation of .
 
