@@ -63,9 +63,9 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 17 Using Pipes to Transform Output:** Explanation of .
 
-**Section 18 Making Http Requests:** Explanation of Http & backend interaction,
+**Section 18 Making Http Requests NEW:** Explanation of Http & backend interaction. Firebase backend setup. Sending a POST request, Getting data, using RxJS operators to transform data. HttpClient types, outputting posts, showing a loading indicator, using a service for http requests, sending a DELETE request. The catchError operator. Error handling. Query params. Response body types. Use of interceptor services to add an auth or logging service. Run npm install for new Angular 8 code.
 
-**Section 19 Course Project - Http:** Explanation of .
+**Section 19 Course Project - Http:** This is all to do. .
 
 **Section 20 Authentatication & Route Protection:** Explanation of .
 
@@ -99,19 +99,13 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 ## Technologies
 
-* [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6
-* [Angular Material](https://material.angular.io/)
+* [Angular CLI v8.0.0](https://github.com/angular/angular-cli)
+* [Angular framework v8.0.0](https://angular.io/)
 * [RxJS Library](https://angular.io/guide/rx-library) version 6.3.3
 
 ## Setup
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Code Examples
 
@@ -152,8 +146,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Inspiration
 
-All code is from [Maximilian Schwarzmüller's Angular 7 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview)
+[Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview)
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
