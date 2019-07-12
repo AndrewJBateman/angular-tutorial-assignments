@@ -65,9 +65,9 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 18 Making Http Requests NEW:** Explanation of Http & backend interaction. Firebase backend setup. Sending a POST request, Getting data, using RxJS operators to transform data. HttpClient types, outputting posts, showing a loading indicator, using a service for http requests, sending a DELETE request. The catchError operator. Error handling. Query params. Response body types. Use of interceptor services to add an auth or logging service. Run npm install for new Angular 8 code.
 
-**Section 19 Course Project - Http:** This is all to do. .
+**Section 19 Course Project - Http:** Backend Firebase setup, Set up dataStorage service, store recipes, fetch recipes, transform response data, resolve data before loading. Run npm install and create new Firebase setup. Hide API keys.
 
-**Section 20 Authentatication & Route Protection:** Explanation of .
+**Section 20 Authentatication & Route Protection NEW:** Explanation of .
 
 **Section 21 Using Angular Modules and Optimising Apps:** Explanation of .
 
