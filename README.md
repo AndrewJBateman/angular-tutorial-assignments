@@ -67,7 +67,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 19 Course Project - Http:** Backend Firebase setup, Set up dataStorage service, store recipes, fetch recipes, transform response data, resolve data before loading. Run npm install and create new Firebase setup. Hide API keys.
 
-**Section 20 Authentication & Route Protection NEW:** Adding an auth page, switching between auth modes, form inputs, Backend, Signup requests, error handling, login requests, login error handling. Run npm install for new Angular 8 code.
+**Section 20 Authentication & Route Protection NEW:** Adding an auth page, switching between auth modes, form inputs, Backend, Signup requests, error handling, login requests, login error handling. Creating & Storing User Data, Reflecting the Auth State in the UI, Adding Token to Outgoing Requests, Attaching Token with Interceptor. Run npm install for new Angular 8 code.
 
 * [firebase docs: rest API - sign in with email/password](https://firebase.google.com/docs/reference/rest/auth?authuser=0#section-sign-in-email-password)
 
