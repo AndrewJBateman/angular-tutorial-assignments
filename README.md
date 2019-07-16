@@ -77,9 +77,9 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 * [Angular Dynamic Components Guide](https://angular.io/guide/dynamic-component-loader)
 
-**Section 22 Deploying an Angular App:** Explanation of .
+**Section 22 Angular Modules and Optimizing Angular Apps NEW** Modules, the AppModule, Feature Modules, Splitting Modules, Adding Routes to Feature Modules, Component Declarations, Shared Modules, Core Module, Auth Feature Module, Lazy Loading, Modules and Services, Ahead-of-Time Compilation.
 
-**Section 23 The HttpClient:** Explanation of .
+**Section 23 Deploying an Angular App** Preparation, Environment variables, Firebase Hosting, Server vs Browser Routing.
 
 **Section 24 Working with NgRx:** Explanation of .
 
