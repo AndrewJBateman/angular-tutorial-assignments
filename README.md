@@ -81,7 +81,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 23 Deploying an Angular App** Preparation, Environment variables, Firebase Hosting, Server vs Browser Routing.
 
-**Section 24 Working with NgRx:** Explanation of .
+**Section 24 Working with NgRx:** Application state, Reducers, Reducer Logic, Adding Actions, NgRx Store, Selecting State, Actions, Update and Delete, Expanding the State, Managing state via NgRx, Auth Reducers & Actions, Auth Actions, NgRx Effects, Managing UI State in NgRx, AutoLogin, Store DevTools, the Router Store, Auth Redirect.
 
 **Section 25 Angular Universal:** Explanation of .
 
