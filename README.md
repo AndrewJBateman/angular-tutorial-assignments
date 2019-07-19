@@ -83,6 +83,8 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 24 Working with NgRx:** Application state, Reducers, Reducer Logic, Adding Actions, NgRx Store, Selecting State, Actions, Update and Delete, Expanding the State, Managing state via NgRx, Auth Reducers & Actions, Auth Actions, NgRx Effects, Managing UI State in NgRx, AutoLogin, Store DevTools, the Router Store, Auth Redirect.
 
+* [ngrx/effects: side effect model for Store](https://ngrx.io/guide/effects) long-running services that listen to an observable of every action dispatched from the Store, isolating side-effects from components.
+
 **Section 25 Angular Universal:** Explanation of .
 
 **Section 26 Angular Animations:** Explanation of .
