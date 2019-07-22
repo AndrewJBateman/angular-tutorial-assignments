@@ -85,6 +85,8 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 * [ngrx/effects: side effect model for Store](https://ngrx.io/guide/effects) long-running services that listen to an observable of every action dispatched from the Store, isolating side-effects from components.
 
+* [NGRX Reactive State for Angular - official website](https://ngrx.io/)
+
 **Section 25 Angular Universal:** Explanation of .
 
 **Section 26 Angular Animations:** Explanation of .
@@ -109,7 +111,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 * [Angular CLI v8.0.0](https://github.com/angular/angular-cli)
 * [Angular framework v8.0.0](https://angular.io/)
-* [RxJS Library](https://angular.io/guide/rx-library) version 6.3.3
+* [RxJS Library v6.3.3](https://angular.io/guide/rx-library)
 
 ## Setup
 
