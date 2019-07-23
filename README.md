@@ -33,6 +33,10 @@ Event Binding: react to events. String Interpolation, Property Binding, Event Bi
 
 Directives: instructions in the DOM. Using *ngIf, using ng-template with else, ngStyle = attribute directive  - see Code Examples section below, ngClass = dynamically add/remove classes. ngFor to output lists and using index - see Code Examples section below.
 
+**Section 2 Assignment 1: Practising Components** The solution is in [this git repo](https://github.com/AndrewJBateman/angular-tutorial-app).
+
+**Section 2 Assignment 2: Practising Databinding** The solution is in [this git repo](https://github.com/AndrewJBateman/angular-tutorial-app).
+
 **Section 3 Course Project - The Basics:** Project based on the above knowledge.
 
 **Section 4 Debugging:** Understanding error messages, using dev console, sourcemaps, Augury.
@@ -43,9 +47,11 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 7 Directives Deep Dive:** Explanation of .
 
-**Section 8 Course Project - Directives:** Explanation of .
+**Section 8 Course Project - Directives:** Building and Using a Dropdown Directive, Closing the Dropdown from Anywhere..
 
-**Section 9 Using Services & Dependency Injection:** Explanation of . Assignment 9 Practising Services:
+**Section 9 Using Services & Dependency Injection:** Logging Service, Injecting the Logging Service, Data Service, Injecting Services, Using Services for Cross-Component Communication.
+
+**Section 9 Assignment 5 Practising Services:** Updated to Angular 8, all dependencies updated using ncu -u, latest code added from tutorial.
 
 **Section 10 Course Project - Services & Dependency Injection:** Explanation of .
 
@@ -55,7 +61,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 13 Understanding Observables NEW:** RxJS (Reactive Extensions for JavaScript) is a library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code. Run npm install for new code.
 
-**Section 14 Course Project - Observables:** Explanation of .
+**Section 14 Course Project - Observables:** This is in [a separate github repo](https://github.com/AndrewJBateman/angular-tutorial-recipe-shopping). Therea re some updates to include observables.
 
 **Section 15 Handling Forms:** Explanation of .
 
@@ -87,21 +93,21 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 * [NGRX Reactive State for Angular - official website](https://ngrx.io/)
 
-**Section 25 Angular Universal:** Explanation of .
+**Section 25 Angular Universal:** Adding Angular Universal and NestJS, Deploying Universal Apps, Server-Side Build Workflow, NodeJS Server, Pre-Rendering App on the Server, Next Steps.
 
 **Section 26 Angular Animations:** Explanation of .
 
-**Section 27 Adding Offline Capability with Service Workers:** Explanation of .
+**Section 27 Adding Offline Capability with Service Workers:** Service Workers, Caching Assets for Offline Use, Caching Dynamic Assets & URLs.
 
-**Section 28 Unit Testing:** Explanation of .
+**Section 28 Unit Testing:** Unit Tests, Analyzing Tests, Running Tests, Testing Dependencies: Components and Services, Simulating Async Tasks, Isolated and non-Isolated Tests.
 
-**Section 29 Angular Changes and New Features:** Explanation of .
+**Section 29 Angular Changes and New Features:** Angular 8 changes, Angular Elements.
 
 **Section 30 Course Roundup:** Summary of course.
 
 **Section 31 Custom Project & Workflow Setup:** Explanation of .
 
-**Section 32 Typescript:** Explanation of .
+**Section 32 Typescript:** Tyes, Classes, Interfaces, Generics
 
 ## Screenshots
 
@@ -146,7 +152,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Features
 
-* Feature
+* updated to angular8
 
 ## Status & To-Do List
 
