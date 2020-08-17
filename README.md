@@ -1,10 +1,10 @@
-# Angular Tutorial Assignments
+# :zap: Angular Tutorial Assignments
 
-A collection of completed assignments and sections from [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) on Udemy.
+* A collection of completed assignments and sections from [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/) on Udemy.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,9 +15,9 @@ A collection of completed assignments and sections from [Maximilian Schwarzmüll
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
-The [Udemy Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
+* The [Udemy Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
 
 **Section 1 Getting Started:** Explanation of Single Page Apps, Angular versions, Command Line Interface, general set-up of software, use of angular.json file to configure the CLI project - only change was to add bootstrap to the styles - see Code Examples section below.
 
@@ -55,7 +55,7 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 10 Course Project - Services & Dependency Injection:** Explanation of .
 
-**Section 11 Changing Pages with Routing:** Explanation of .
+**Section 11 Changing Pages with Routing:** Using routing to Navigate to other parts of the single-page-app.
 
 **Section 12 Course Project - Routing:** Explanation of .
 
@@ -109,21 +109,21 @@ Directives: instructions in the DOM. Using *ngIf, using ng-template with else, n
 
 **Section 32 Typescript:** Tyes, Classes, Interfaces, Generics
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/.png)
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Angular CLI v8.0.0](https://github.com/angular/angular-cli)
 * [Angular framework v8.0.0](https://angular.io/)
 * [RxJS Library v6.3.3](https://angular.io/guide/rx-library)
 
-## Setup
+## :floppy_disk: Setup
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
 * **Section 1:** Angular.json file modified to include bootstrap styles:
 
@@ -150,20 +150,19 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ```
 
-## Features
+## :cool: Features
 
 * updated to angular8
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: documentation incomplete.
-
 * To-Do: complete summary of course with links and add diagrams.
 
-## Inspiration
+## :clap: Inspiration
 
-[Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview)
+* [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
