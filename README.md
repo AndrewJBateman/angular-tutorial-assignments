@@ -1,8 +1,28 @@
 # :zap: Angular Tutorial Assignments
 
 * A collection of completed assignments and sections from [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/) on Udemy.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-tutorial-assignments?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-tutorial-assignments?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-tutorial-assignments?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-tutorial-assignments?style=plastic)
+
+## :page_facing_up: Table of contents
+
+* [:zap: Angular Tutorial Axssignments](#zap-angular-tutorial-assignments)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:wrench: Testing](#wrench-testing)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :page_facing_up: Table of contents
 
@@ -163,6 +183,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 * [Maximilian Schwarzmüller's Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
