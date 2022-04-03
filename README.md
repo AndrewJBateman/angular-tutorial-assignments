@@ -24,17 +24,6 @@
   * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
-## :page_facing_up: Table of contents
-
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
-
 ## :books: General info
 
 * The [Udemy Angular 8 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview) course contains 32 sections, listed below:
